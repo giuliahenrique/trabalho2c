@@ -1,0 +1,73 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f8f9fa;
+    color: #222;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #0056b3;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+h3 {
+    color: #444;
+    margin-top: 15px;
+}
+
+p {
+    max-width: 800px;
+    margin: 5px auto 15px auto;
+    text-align: justify;
+}
+
+section {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    margin: 20px auto;
+    max-width: 900px;
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.05);
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    object-fit: contain;
+    background-color: white;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+img[src*="img/"] {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
+}
+
+img[src*="ola"], img[src*="Ola"], img[src*="OLA"], img[src*="pyton.png"], img[src*="giulia.png"], img[src*="assembly.png"], img[src*="c++.png"] {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+@media (max-width: 600px) {
+    img[src*="img/"] {
+        width: 100px;
+        height: 100px;
+    }
+    img[src*="ola"], img[src*="Ola"], img[src*="OLA"], img[src*="pyton.png"], img[src*="giulia.png"], img[src*="assembly.png"], img[src*="c++.png"] {
+        width: 220px;
+    }
+    body {
+        padding: 10px;
+    }
+}
